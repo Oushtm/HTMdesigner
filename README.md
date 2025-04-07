@@ -1,14 +1,14 @@
-# Web simulation of UbuntuOS
+# HTMdesigner - My Personal Web Portfolio
 
-This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
-If you want to edit this. Clone this project and edit the files in `/src/components`.
+This is my personal portfolio website with an Ubuntu 20.04 theme, created by me using Next.js & Tailwind CSS.
+The site showcases my work and skills through an interactive Ubuntu-like interface.
 
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
 
 _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
 
-<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+
 
 ### To make the contact form work
 
@@ -28,9 +28,9 @@ NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
 
-## Star History
+## About This Project
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vivek9patel/vivek9patel.github.io&type=Date)](https://star-history.com/#vivek9patel/vivek9patel.github.io&Date)
+I created this website to showcase my portfolio in a unique and interactive way. The Ubuntu OS simulation provides visitors with a fun and engaging experience while exploring my work and skills.
 
 ## This project was made using Create Next App! Here is the scripts that u can run.
 
@@ -52,12 +52,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Contributing
+## My Development Process
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
+I built this website from scratch, customizing the Ubuntu theme to create a unique portfolio experience. The project demonstrates my skills in:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- Next.js development
+- Tailwind CSS styling
+- Interactive UI design
+- Web application architecture
+
+Feel free to explore the site and contact me through the built-in contact form for any inquiries or collaboration opportunities.
