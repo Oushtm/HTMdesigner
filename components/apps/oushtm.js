@@ -53,16 +53,16 @@ export class AboutOusHtm extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about oushtm" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about oushtm" src="/themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
 
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="oushtm's skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="oushtm's skills" src="/themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="oushtm's projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="oushtm's projects" src="/themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
 
@@ -105,7 +105,7 @@ function About() {
     return (
         <>
             <div className="w-24 md:w-32 my-4 overflow-hidden">
-                <img className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg" src="./images/htm.jpg" alt="HTMdesigner Profile Picture" />
+                <img className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg" src="/images/htm.jpg" alt="HTMdesigner Profile Picture" />
             </div>
             <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div className="flex flex-col items-center">
@@ -132,23 +132,23 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4">
                 <li className="flex items-start mb-2">
-                    <img src="./themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
+                    <img src="/themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
                     <span>I'm a <span className=" font-medium">creative graphic designer</span> blending bold ideas with clean visuals</span>
                 </li>
                 <li className="flex items-start mb-2">
-                    <img src="./themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
+                    <img src="/themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
                     <span>From logos to full brand identities, I turn concepts into eye-catching designs that speak loud and clear</span>
                 </li>
                 <li className="flex items-start mb-2">
-                    <img src="./themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
+                    <img src="/themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
                     <span>Simplicity, impact, and originality — that's my style</span>
                 </li>
                 <li className="flex items-start mb-2">
-                    <img src="./themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
+                    <img src="/themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
                     <span>Connect with me on <a href="https://www.linkedin.com/in/oussamahatim/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">LinkedIn</a></span>
                 </li>
                 <li className="flex items-start mb-2">
-                    <img src="./themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
+                    <img src="/themes/Yaru/status/emoji-list.svg" alt="emoji" className="w-5 h-5 mr-2 mt-0.5" />
                     <span>Email me at: <a href="mailto:oussamahatimofficiel@gmail.com" className="text-blue-400 hover:underline">oussamahatimofficiel@gmail.com</a></span>
                 </li>
             </ul>
@@ -334,12 +334,12 @@ function Projects() {
             </div>
             <div className="my-4 w-5/6 md:w-3/4">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
-                    <img src="./my-works/1.png" alt="Design Sample 1" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
-                    <img src="./my-works/2.jpg" alt="Design Sample 2" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
-                    <img src="./my-works/3.jpg" alt="Design Sample 3" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
-                    <img src="./my-works/4.jpg" alt="Design Sample 4" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
-                    <img src="./my-works/5.png" alt="Design Sample 5" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
-                    <img src="./my-works/6.jpg" alt="Design Sample 6" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/1.png" alt="Design Sample 1" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/2.jpg" alt="Design Sample 2" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/3.jpg" alt="Design Sample 3" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/4.jpg" alt="Design Sample 4" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/5.png" alt="Design Sample 5" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
+                    <img src="/my-works/6.jpg" alt="Design Sample 6" className="w-full h-auto rounded shadow-md hover:shadow-lg transition-all" />
                 </div>
                 <div className="text-center text-lg font-bold text-white bg-ub-orange bg-opacity-90 py-2 rounded-lg">
                     +200 Projets Réalisés
